@@ -11,6 +11,6 @@ FROM openjdk:11
 
 COPY --from=builder /app/target/payments-service-example-*.jar /target/payments-service-example.jar
 
-EXPOSE 5001
+EXPOSE 5002
 
 CMD ["java", "-jar", "/target/payments-service-example.jar"]
