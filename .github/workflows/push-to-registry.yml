@@ -39,5 +39,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: payments-service-dev
+          tags: paymentservicedev
           labels: ${{ steps.meta.outputs.labels }}
