@@ -34,7 +34,7 @@ spec:
   selector:
     app: payments-service
   ports:
-    - port: 8080
+    - port: 5000
       targetPort: 8080
       # nodePort: 30037
       protocol: TCP
